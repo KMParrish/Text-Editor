@@ -1,9 +1,7 @@
 {
   "dependencies": {
-    "concurrently": "^7.6.0",
     "express": "^4.18.2",
-    "if-env": "^1.0.4",
-    "nodemon": "^2.0.20"
+    "if-env": "^1.0.4"
   },
   "name": "text-editor",
   "version": "1.0.0",
@@ -28,5 +26,10 @@
     "url": "https://github.com/KMParrish/Text-Editor/issues"
   },
   "homepage": "https://github.com/KMParrish/Text-Editor#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20",
+    "webpack": "^5.75.0"
+  }
 }
